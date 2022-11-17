@@ -18,6 +18,6 @@ Mobile Hotels &copy; Maliek.Galant, [Apache 2.0 License](https://www.apache.org/
 
 Chromium &copy; The Chromium Authors, [BSD license](https://opensource.org/licenses/BSD-3-Clause).
 
-Chrlauncher &copy; Henry++, [MIT License](https://opensource.org/licenses/MIT)
+Chrlauncher &copy; Maliek News ++, [MIT License](https://opensource.org/licenses/MIT)
 
 AMP Project &copy; The AMP Project Contributors, [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
