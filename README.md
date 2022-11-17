@@ -6,7 +6,7 @@ You can toggle all the features by right-clicking the ⚡ icon in the top right 
 
 # Screenshot
 
-![Mobile Hotel Screenshot](favicon.ico)
+![Mobile Hotel Screenshot](...)
 
 # Download
 
