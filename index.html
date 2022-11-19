@@ -1,9 +1,3 @@
-<!--
-  ## Introduction
-
-  Use [`amp-youtube`](/content/amp-dev/documentation/components/reference/amp-youtube-v0.1.md) to embed YouTube videos into your AMP HTML files.
--->
-<!-- -->
 <!doctype html>
 <html ⚡ lang="en">
 <head>
@@ -17,11 +11,10 @@
     <script async src="https://www.adball.tech/amp/v0.js"></script>
     <script async custom-element="amp-carousel" src="https://www.adball.tech/amp/v0/amp-carousel-0.1.js"></script>
     <script async custom-element="amp-web-push" src="https://cdn.ampproject.org/v0/amp-web-push-0.1.js"></script>
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
-   
+    <script async src="https://cdn.ampproject.org/v0.js"></script>  
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>    
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
-    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
 
     <title>iBlog Hotel - Website </title>
@@ -155,35 +148,41 @@
 
    <div align="center">
 
-   <h1>Mobile Hotel</h1>
-
-  </div>
-     
-
-  <!-- ## Basic usage -->
+   <h1>Vante Tutorials App</h1>
 
 
-  <div>
+  
     <amp-img lightbox src="https://preview.amp.dev/static/samples/img/road-1.jpg" width="300" height="200" layout="responsive"></amp-img>
     <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <amp-img lightbox src="https://preview.amp.dev/static/samples/img/road-2.jpg" width="300" height="200" layout="responsive"></amp-img>
     <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <amp-img lightbox src="https://preview.amp.dev/static/samples/img/road-3.jpg" width="300" height="200" layout="responsive"></amp-img>
     <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
+ 
 
-  <div>
+
+
+
+  
     <amp-carousel lightbox width="400" height="300" layout="responsive" type="slides">
       <amp-img src="https://preview.amp.dev/static/samples/img/image1.jpg" width="400" height="300" layout="responsive"></amp-img>
       <amp-img src="https://preview.amp.dev/static/samples/img/image2.jpg" width="400" height="300" layout="responsive"></amp-img>
       <amp-img src="https://preview.amp.dev/static/samples/img/image3.jpg" width="400" height="300" layout="responsive"></amp-img>
     </amp-carousel>
-  </div>
- 
+  
 
-      <div align="center">
 
-      <p>This blog is an open source web browser based on Chromium, which <strong>accelerates web browsing</strong> by automatically loading AMP &amp; MIP web pages, <strong>saves bandwidth</strong> by enabling data compression, and <strong>respects privacy</strong> by blocking ads and tracking scripts.</p>
+   
+     </div>
+     
+
+  <!-- ## Basic usage -->
+
+
+  
+
+  <div align="center">
+   <p>This blog is an open source web browser based on Chromium, which <strong>accelerates web browsing</strong> by automatically loading AMP &amp; MIP web pages, <strong>saves bandwidth</strong> by enabling data compression, and <strong>respects privacy</strong> by blocking ads and tracking scripts.</p>
       <p>Notable features:
       <ul>
         <li>Automatically loading <a href="https://www.ampproject.org/" target="_blank">AMP</a> &amp; <a href="https://www.mipengine.org/" target="_blank">MIP</a> web pages whenever possible,</li>
@@ -209,7 +208,12 @@
       <p><small>Mobile Hotel provides the <a href="https://developer.chrome.com/multidevice/data-compression" target="_blank">Data Saver</a> functionality out of the box, which is bound to the <a href="https://www.google.com/policies/" target="_blank">Google Terms of Service</a>. You can disable it by removing the <code>--enable-spdy-proxy-auth</code> command line switch in the <i>chrlauncher.ini</i> file.</small></p>
 
 
-   </div>
+
+
+   <amp-youtube width="480" height="270" layout="responsive" data-param-modestbranding="1" data-param-rel="1" data-videoid="41cOv5QOiFM">
+   </amp-youtube>
+      
+      
       
 
   <p>
@@ -223,8 +227,7 @@
     ultricies. Nunc vestibulum porta ante sed iaculis.
   </p>
 
-  <amp-youtube width="480" height="270" layout="responsive" data-param-modestbranding="1" data-param-rel="1" data-videoid="41cOv5QOiFM">
-  </amp-youtube>
+  
 
 
   <p>
@@ -256,7 +259,7 @@
   </amp-youtube>
   
   
-
+  </div>
 
 
     <amp-analytics type="googleanalytics">
