@@ -3,11 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="google-site-verification" content="         ">
+    <meta name="runtime-host" content="https://www.adball.tech/amp">
+    <script async src="https://www.adball.tech/amp/v0.js"></script>
+    <script async custom-element="amp-carousel" src="https://www.adball.tech/amp/v0/amp-carousel-0.1.js"></script>
+    <script async custom-element="amp-web-push" src="https://cdn.ampproject.org/v0/amp-web-push-0.1.js"></script>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+      
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <title>iBlog Hotel - Website </title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-    <link rel="canonical" href="http://ampbrowser.com/">
+    <link rel="canonical" href="http://www.adball.tech/amp/">
+
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <script type="application/ld+json">
     {
@@ -41,10 +48,66 @@
       },
       "description": "The Mobile Hotel is an open source web browser based on Chromium, which accelerates web browsing"
     }
-    </script> 
+    </script>
+
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <style amp-custom>
-      body {
+    :root {
+      --color-primary: #005AF0;
+      --color-text-light: #fff;
+      --space-1: .5rem;  /* 8px */
+      --space-2: 1rem;   /* 16px */
+    }
+    .overlay-text {
+      position: absolute;
+      bottom: var(--space-2);
+      left: var(--space-2);
+      z-index: 1;
+      pointer-events: none;
+      background-color: var(--color-primary);
+      color: var(--color-text-light);
+      padding: var(--space-1);
+      border-radius: 2px;
+      opacity: 0.7;
+    }
+    .sample-figure {
+      margin: 0;
+    }
+    .sample-figure figcaption {
+      padding: var(--space-1) var(--space-2);
+    }
+    .paragraph {
+      padding: var(--space-2);
+    }
+  
+    .amp-web-push button {
+      border-radius: 2px;
+      border: 0;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 10px 15px;
+      cursor: pointer;
+      outline: none;
+      font-size: inherit;
+      font-weight: inherit;
+      background: #2196F3;
+      color: white;
+      display: inline-block;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+      text-align: center;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .amp-web-push button:hover {
+      background: #269BF8;
+    }
+
+    .amp-web-push button:active {
+      background: #1C91EE;
+      transform: scale(0.99);
+    }
+  
+  body {
       	font: 300 1em Roboto, Noto, sans-serif;
       }
       a {
@@ -67,34 +130,41 @@
         background-color: #0379c3;
       }
     </style>
+
   </head>
   <body>
-   <div class="container">                
-   <figure class="ampstart-image-fullpage-hero m0 relative mb4">
-    <amp-img width="600" height="900" layout="responsive" src="https://unsplash.it/600/900?image=1003" media="(max-width: 415px)"></amp-img>
-    <amp-img height="1800" layout="fixed-height" src="https://unsplash.it/1200/1800?image=1003" media="(min-width: 416px)"></amp-img>
-    <figcaption class="absolute top-0 right-0 bottom-0 left-0">
-      <header class="p3">
-        <h1 class="ampstart-fullpage-hero-heading mb3">
-        <span class="ampstart-fullpage-hero-heading-text">
-          Most Beautiful Hotel
-        </span>
-      </h1>
-        <span class="ampstart-image-credit h4">
-        By <a href="#booknow" role="author" class="text-decoration-none">Maliek Galant</a>,<br> January 14, 2017
-      </span>
-      </header>
-      <footer class="absolute left-0 right-0 bottom-0">
-        <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5" href="#content">Read more</a>
-      </footer>
-    </figcaption>
-</figure>
-</div>
 
-<div align="center">
-<amp-img src="ampbrowser.png" alt="AMP Browser" height="490" width="1299" layout="responsive"></amp-img>
-<h1>Book Mobile Hotel</h1>
-<p>This blog is an open source web browser based on Chromium, which <strong>accelerates web browsing</strong> by automatically loading AMP &amp; MIP web pages, <strong>saves bandwidth</strong> by enabling data compression, and <strong>respects privacy</strong> by blocking ads and tracking scripts.</p>
+   <div align="center">
+
+   <h1>Mobile Hotel</h1>
+
+   
+   
+
+  <!-- ## Basic usage -->
+  <!--
+  This is a basic example that demonstrates lightboxed `<amp-img>`s. You have one or more `<amp-img>` elements on the page. Just add the "lightbox" attribute to each image that you wish to view in a lightbox.
+  -->
+
+
+  <div>
+    <amp-img lightbox src="https://preview.amp.dev/static/samples/img/road-1.jpg" width="300" height="200" layout="responsive"></amp-img>
+    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <amp-img lightbox src="https://preview.amp.dev/static/samples/img/road-2.jpg" width="300" height="200" layout="responsive"></amp-img>
+    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <amp-img lightbox src="https://preview.amp.dev/static/samples/img/road-3.jpg" width="300" height="200" layout="responsive"></amp-img>
+    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <div>
+    <amp-carousel lightbox width="400" height="300" layout="responsive" type="slides">
+      <amp-img src="https://preview.amp.dev/static/samples/img/image1.jpg" width="400" height="300" layout="responsive"></amp-img>
+      <amp-img src="https://preview.amp.dev/static/samples/img/image2.jpg" width="400" height="300" layout="responsive"></amp-img>
+      <amp-img src="https://preview.amp.dev/static/samples/img/image3.jpg" width="400" height="300" layout="responsive"></amp-img>
+    </amp-carousel>
+  </div>
+
+      <p>This blog is an open source web browser based on Chromium, which <strong>accelerates web browsing</strong> by automatically loading AMP &amp; MIP web pages, <strong>saves bandwidth</strong> by enabling data compression, and <strong>respects privacy</strong> by blocking ads and tracking scripts.</p>
       <p>Notable features:
       <ul>
         <li>Automatically loading <a href="https://www.ampproject.org/" target="_blank">AMP</a> &amp; <a href="https://www.mipengine.org/" target="_blank">MIP</a> web pages whenever possible,</li>
@@ -118,7 +188,42 @@
       <p><a class="btn" href="https://github.com/amaapp333/hennessey/releases/download/61/ampbrowser-61-ubuntu.deb">Download Mobile Hotels 61 (beta) for Ubuntu Linux </a></p>
       <p><a href="https://www.google.com/amp/book.adball.online/privacy" target="_blank">Privacy Policy</a></p>
       <p><small>Mobile Hotel provides the <a href="https://developer.chrome.com/multidevice/data-compression" target="_blank">Data Saver</a> functionality out of the box, which is bound to the <a href="https://www.google.com/policies/" target="_blank">Google Terms of Service</a>. You can disable it by removing the <code>--enable-spdy-proxy-auth</code> command line switch in the <i>chrlauncher.ini</i> file.</small></p>
-     </div>
+      
+      
+    
+
+
+  <!-- AMP Web Push Extension Configuration -->
+  <amp-web-push
+    id="amp-web-push"
+    layout="nodisplay"
+    helper-iframe-url="https://example.com/helper-iframe.html"
+    permission-dialog-url="https://example.com/permission-dialog.html"
+    service-worker-url="https://example.com/service-worker.js"
+  ></amp-web-push>
+
+  <amp-web-push-widget visibility="unsubscribed" layout="fixed" width="250" height="80">
+    <button on="tap:amp-web-push.subscribe">Subscribe to Notifications</button>
+  </amp-web-push-widget>
+  <amp-web-push-widget visibility="subscribed" layout="fixed" width="250" height="80">
+    <button on="tap:amp-web-push.unsubscribe">Unsubscribe me from Notifications</button>
+  </amp-web-push-widget>
+  <amp-web-push-widget visibility="blocked" layout="fixed" width="250" height="80">
+    Looks like you've blocked notifications!
+  </amp-web-push-widget>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget
+    ligula eu augue scelerisque sodales. Vivamus consequat consectetur mauris, sed
+    mollis justo aliquam feugiat. Phasellus sagittis dui eget posuere pulvinar.
+    Curabitur leo urna, auctor in fringilla ut, eleifend in dolor. Aenean
+    imperdiet lectus et lectus tincidunt, eu porttitor nisi placerat. Class aptent
+    taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+    Praesent pretium tincidunt lectus sit amet semper. Sed egestas vulputate
+    ultricies. Nunc vestibulum porta ante sed iaculis.
+  </p>
+
+   </div>
+
     <amp-analytics type="googleanalytics">
       <script type="application/json">
       {
