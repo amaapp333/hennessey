@@ -10,20 +10,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta name="google-site-verification" content="         ">
-    <meta name="runtime-host" content="https://www.adball.tech/amp">
+    <meta name="runtime-host" content="https://www.adball.tech">
 
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
     <script async src="https://www.adball.tech/amp/v0.js"></script>
     <script async custom-element="amp-carousel" src="https://www.adball.tech/amp/v0/amp-carousel-0.1.js"></script>
     <script async custom-element="amp-web-push" src="https://cdn.ampproject.org/v0/amp-web-push-0.1.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
-   
+    
   
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+
     <title>iBlog Hotel - Website </title>
+
+
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 
     <link rel="canonical" href="http://adball.tech/amp/">
@@ -62,6 +65,8 @@
       "description": "The Mobile Hotel is an open source web browser based on Chromium, which accelerates web browsing"
     }
     </script>
+
+
 
     <style amp-custom>
     :root {
@@ -143,6 +148,8 @@
       }
     </style>
 
+
+
   </head>
   <body>
 
@@ -157,7 +164,6 @@
   <!--
   This is a basic example that demonstrates lightboxed `<amp-img>`s. You have one or more `<amp-img>` elements on the page. Just add the "lightbox" attribute to each image that you wish to view in a lightbox.
   -->
-
 
   <div>
     <amp-img lightbox src="https://preview.amp.dev/static/samples/img/road-1.jpg" width="300" height="200" layout="responsive"></amp-img>
@@ -175,6 +181,9 @@
       <amp-img src="https://preview.amp.dev/static/samples/img/image3.jpg" width="400" height="300" layout="responsive"></amp-img>
     </amp-carousel>
   </div>
+   </div>
+
+      <div align="center">
 
       <p>This blog is an open source web browser based on Chromium, which <strong>accelerates web browsing</strong> by automatically loading AMP &amp; MIP web pages, <strong>saves bandwidth</strong> by enabling data compression, and <strong>respects privacy</strong> by blocking ads and tracking scripts.</p>
       <p>Notable features:
@@ -202,9 +211,6 @@
       <p><small>Mobile Hotel provides the <a href="https://developer.chrome.com/multidevice/data-compression" target="_blank">Data Saver</a> functionality out of the box, which is bound to the <a href="https://www.google.com/policies/" target="_blank">Google Terms of Service</a>. You can disable it by removing the <code>--enable-spdy-proxy-auth</code> command line switch in the <i>chrlauncher.ini</i> file.</small></p>
       
       
-    
-
-
   <!-- AMP Web Push Extension Configuration -->
   <amp-web-push
     id="amp-web-push"
@@ -226,6 +232,10 @@
   </amp-web-push-widget>
 
 
+  <amp-youtube width="480" height="270" layout="responsive" data-param-modestbranding="1" data-param-rel="1" data-videoid="41cOv5QOiFM">
+  </amp-youtube>
+
+
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget
     ligula eu augue scelerisque sodales. Vivamus consequat consectetur mauris, sed
@@ -237,30 +247,27 @@
     ultricies. Nunc vestibulum porta ante sed iaculis.
   </p>
 
-
-
-   
-  <!-- ## Basic usage -->
-  <!-- Embed YouTube videos via the video id. The id is found in every Youtube video page URL. -->
-
-
-
-
   <amp-youtube width="480" height="270" layout="responsive" data-videoid="pJ_tBc1c_8g">
   </amp-youtube>
- 
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget
+    ligula eu augue scelerisque sodales. Vivamus consequat consectetur mauris, sed
+    mollis justo aliquam feugiat. Phasellus sagittis dui eget posuere pulvinar.
+    Curabitur leo urna, auctor in fringilla ut, eleifend in dolor. Aenean
+    imperdiet lectus et lectus tincidunt, eu porttitor nisi placerat. Class aptent
+    taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+    Praesent pretium tincidunt lectus sit amet semper. Sed egestas vulputate
+    ultricies. Nunc vestibulum porta ante sed iaculis.
+  </p>
 
   <amp-youtube width="480" height="270" layout="responsive" data-videoid="5DKNliP8Gac" autoplay>
-  </amp-youtube>
-  
-
-
-
-  <amp-youtube width="480" height="270" layout="responsive" data-param-modestbranding="1" data-param-rel="1" data-videoid="41cOv5QOiFM">
   </amp-youtube>
 
 
   </div>
+
+
 
     <amp-analytics type="googleanalytics">
       <script type="application/json">
@@ -277,5 +284,7 @@
       }
       </script>
       </amp-analytics>
+
+
   </body>
 </html>
